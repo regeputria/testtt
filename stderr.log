@@ -1,0 +1,1017 @@
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/player.ejs:170
+    168|                                     <div class="w-9/12">
+    169|                                         <p id="barTitle" class="text-shadow text-md font-bold line-clamp-1"><%= shortPlayName %></p>
+ >> 170|                                         <p id="barEpisode" class="text-shadow text-gray-400">Episode <%= selectedEpisode.episodeNo %></p>
+    171|                                     </div>
+    172|                                     <div class="w-2/12 flex justify-end"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+    173|                                             viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+
+Cannot read properties of null (reading 'episodeNo')
+    at eval ("/home/regexdco/netshort/views/player.ejs":24:42)
+    at player (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:258:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/player.ejs:170
+    168|                                     <div class="w-9/12">
+    169|                                         <p id="barTitle" class="text-shadow text-md font-bold line-clamp-1"><%= shortPlayName %></p>
+ >> 170|                                         <p id="barEpisode" class="text-shadow text-gray-400">Episode <%= selectedEpisode.episodeNo %></p>
+    171|                                     </div>
+    172|                                     <div class="w-2/12 flex justify-end"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+    173|                                             viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+
+Cannot read properties of null (reading 'episodeNo')
+    at eval ("/home/regexdco/netshort/views/player.ejs":24:42)
+    at player (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:258:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/player.ejs:170
+    168|                                     <div class="w-9/12">
+    169|                                         <p id="barTitle" class="text-shadow text-md font-bold line-clamp-1"><%= shortPlayName %></p>
+ >> 170|                                         <p id="barEpisode" class="text-shadow text-gray-400">Episode <%= selectedEpisode.episodeNo %></p>
+    171|                                     </div>
+    172|                                     <div class="w-2/12 flex justify-end"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+    173|                                             viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+
+Cannot read properties of null (reading 'episodeNo')
+    at eval ("/home/regexdco/netshort/views/player.ejs":24:42)
+    at player (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:258:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/player.ejs:170
+    168|                                     <div class="w-9/12">
+    169|                                         <p id="barTitle" class="text-shadow text-md font-bold line-clamp-1"><%= shortPlayName %></p>
+ >> 170|                                         <p id="barEpisode" class="text-shadow text-gray-400">Episode <%= selectedEpisode.episodeNo %></p>
+    171|                                     </div>
+    172|                                     <div class="w-2/12 flex justify-end"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+    173|                                             viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+
+Cannot read properties of null (reading 'episodeNo')
+    at eval ("/home/regexdco/netshort/views/player.ejs":24:42)
+    at player (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:258:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/player.ejs:170
+    168|                                     <div class="w-9/12">
+    169|                                         <p id="barTitle" class="text-shadow text-md font-bold line-clamp-1"><%= shortPlayName %></p>
+ >> 170|                                         <p id="barEpisode" class="text-shadow text-gray-400">Episode <%= selectedEpisode.episodeNo %></p>
+    171|                                     </div>
+    172|                                     <div class="w-2/12 flex justify-end"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+    173|                                             viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+
+Cannot read properties of null (reading 'episodeNo')
+    at eval ("/home/regexdco/netshort/views/player.ejs":24:42)
+    at player (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:258:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/index.ejs:193
+    191|         </div>
+    192|                 <div class="filter-scroll" id="orderFilter">
+ >> 193|           <% constants.orderMode.forEach(o => { %>
+    194|             <div class="filter-btn bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 border-gray-200 dark:border-gray-700" 
+    195|                 data-type="orderMode" data-value="<%= o.key %>"><%= o.value %></div>
+    196|           <% }) %>
+
+Cannot read properties of undefined (reading 'forEach')
+    at eval ("/home/regexdco/netshort/views/index.ejs":45:28)
+    at index (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:134:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/player.ejs:170
+    168|                                     <div class="w-9/12">
+    169|                                         <p id="barTitle" class="text-shadow text-md font-bold line-clamp-1"><%= shortPlayName %></p>
+ >> 170|                                         <p id="barEpisode" class="text-shadow text-gray-400">Episode <%= selectedEpisode.episodeNo %></p>
+    171|                                     </div>
+    172|                                     <div class="w-2/12 flex justify-end"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+    173|                                             viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+
+Cannot read properties of null (reading 'episodeNo')
+    at eval ("/home/regexdco/netshort/views/player.ejs":24:42)
+    at player (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:302:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/player.ejs:170
+    168|                                     <div class="w-9/12">
+    169|                                         <p id="barTitle" class="text-shadow text-md font-bold line-clamp-1"><%= shortPlayName %></p>
+ >> 170|                                         <p id="barEpisode" class="text-shadow text-gray-400">Episode <%= selectedEpisode.episodeNo %></p>
+    171|                                     </div>
+    172|                                     <div class="w-2/12 flex justify-end"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+    173|                                             viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+
+Cannot read properties of null (reading 'episodeNo')
+    at eval ("/home/regexdco/netshort/views/player.ejs":24:42)
+    at player (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:302:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ENETUNREACH 2404:6800:4003:c11::5f:443 - Local (:::0). Resolution note: 
+    at callErrorFromStatus (/home/regexdco/nodevenv/netshort/22/lib/node_modules/google-gax/node_modules/@grpc/grpc-js/build/src/call.js:32:19)
+    at Object.onReceiveStatus (/home/regexdco/nodevenv/netshort/22/lib/node_modules/google-gax/node_modules/@grpc/grpc-js/build/src/client.js:359:73)
+    at Object.onReceiveStatus (/home/regexdco/nodevenv/netshort/22/lib/node_modules/google-gax/node_modules/@grpc/grpc-js/build/src/client-interceptors.js:327:181)
+    at /home/regexdco/nodevenv/netshort/22/lib/node_modules/google-gax/node_modules/@grpc/grpc-js/build/src/resolving-call.js:135:78
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeServerStreamRequest (/home/regexdco/nodevenv/netshort/22/lib/node_modules/google-gax/node_modules/@grpc/grpc-js/build/src/client.js:342:32)
+    at ServiceClientImpl.<anonymous> (/home/regexdco/nodevenv/netshort/22/lib/node_modules/google-gax/node_modules/@grpc/grpc-js/build/src/make-client.js:105:19)
+    at /home/regexdco/nodevenv/netshort/22/lib/node_modules/@google-cloud/firestore/build/src/v1/firestore_client.js:242:33
+    at /home/regexdco/nodevenv/netshort/22/lib/node_modules/google-gax/build/src/streamingCalls/streamingApiCaller.js:38:28
+    at /home/regexdco/nodevenv/netshort/22/lib/node_modules/google-gax/build/src/normalCalls/timeout.js:44:16
+    at Object.request (/home/regexdco/nodevenv/netshort/22/lib/node_modules/google-gax/build/src/streamingCalls/streaming.js:234:40)
+    at Timeout.makeRequest [as _onTimeout] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/retry-request/index.js:159:28)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+Caused by: Error
+    at /home/regexdco/nodevenv/netshort/22/lib/node_modules/@google-cloud/firestore/build/src/index.js:1040:27
+    at /home/regexdco/nodevenv/netshort/22/lib/node_modules/@google-cloud/firestore/build/src/telemetry/enabled-trace-util.js:110:30
+    at NoopContextManager.with (/home/regexdco/nodevenv/netshort/22/lib/node_modules/@opentelemetry/api/build/src/context/NoopContextManager.js:25:19)
+    at ContextAPI.with (/home/regexdco/nodevenv/netshort/22/lib/node_modules/@opentelemetry/api/build/src/api/context.js:60:46)
+    at NoopTracer.startActiveSpan (/home/regexdco/nodevenv/netshort/22/lib/node_modules/@opentelemetry/api/build/src/trace/NoopTracer.js:65:31)
+    at ProxyTracer.startActiveSpan (/home/regexdco/nodevenv/netshort/22/lib/node_modules/@opentelemetry/api/build/src/trace/ProxyTracer.js:36:24)
+    at EnabledTraceUtil.startActiveSpan (/home/regexdco/nodevenv/netshort/22/lib/node_modules/@google-cloud/firestore/build/src/telemetry/enabled-trace-util.js:102:28)
+    at Firestore.getAll (/home/regexdco/nodevenv/netshort/22/lib/node_modules/@google-cloud/firestore/build/src/index.js:1031:32)
+    at /home/regexdco/nodevenv/netshort/22/lib/node_modules/@google-cloud/firestore/build/src/reference/document-reference.js:182:36
+    at /home/regexdco/nodevenv/netshort/22/lib/node_modules/@google-cloud/firestore/build/src/telemetry/enabled-trace-util.js:110:30
+TypeError: /home/regexdco/netshort/views/player.ejs:170
+    168|                                     <div class="w-9/12">
+    169|                                         <p id="barTitle" class="text-shadow text-md font-bold line-clamp-1"><%= shortPlayName %></p>
+ >> 170|                                         <p id="barEpisode" class="text-shadow text-gray-400">Episode <%= selectedEpisode.episodeNo %></p>
+    171|                                     </div>
+    172|                                     <div class="w-2/12 flex justify-end"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+    173|                                             viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+
+Cannot read properties of null (reading 'episodeNo')
+    at eval ("/home/regexdco/netshort/views/player.ejs":24:42)
+    at player (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:302:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+TypeError: /home/regexdco/netshort/views/player.ejs:170
+    168|                                     <div class="w-9/12">
+    169|                                         <p id="barTitle" class="text-shadow text-md font-bold line-clamp-1"><%= shortPlayName %></p>
+ >> 170|                                         <p id="barEpisode" class="text-shadow text-gray-400">Episode <%= selectedEpisode.episodeNo %></p>
+    171|                                     </div>
+    172|                                     <div class="w-2/12 flex justify-end"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+    173|                                             viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+
+Cannot read properties of null (reading 'episodeNo')
+    at eval ("/home/regexdco/netshort/views/player.ejs":24:42)
+    at player (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:302:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/player.ejs:170
+    168|                                     <div class="w-9/12">
+    169|                                         <p id="barTitle" class="text-shadow text-md font-bold line-clamp-1"><%= shortPlayName %></p>
+ >> 170|                                         <p id="barEpisode" class="text-shadow text-gray-400">Episode <%= selectedEpisode.episodeNo %></p>
+    171|                                     </div>
+    172|                                     <div class="w-2/12 flex justify-end"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+    173|                                             viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+
+Cannot read properties of null (reading 'episodeNo')
+    at eval ("/home/regexdco/netshort/views/player.ejs":24:42)
+    at player (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:302:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+TypeError: /home/regexdco/netshort/views/player.ejs:170
+    168|                                     <div class="w-9/12">
+    169|                                         <p id="barTitle" class="text-shadow text-md font-bold line-clamp-1"><%= shortPlayName %></p>
+ >> 170|                                         <p id="barEpisode" class="text-shadow text-gray-400">Episode <%= selectedEpisode.episodeNo %></p>
+    171|                                     </div>
+    172|                                     <div class="w-2/12 flex justify-end"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+    173|                                             viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+
+Cannot read properties of null (reading 'episodeNo')
+    at eval ("/home/regexdco/netshort/views/player.ejs":24:42)
+    at player (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at exports.renderFile [as engine] (/home/regexdco/nodevenv/netshort/22/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/regexdco/nodevenv/netshort/22/lib/node_modules/express/lib/response.js:1049:7)
+    at /home/regexdco/netshort/app.cjs:302:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
